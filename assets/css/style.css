@@ -615,7 +615,8 @@ footer {
   outline: none;
   border: none;
   background-color: #fff;
-  cursor: pointer; }
+  cursor: pointer;
+  visibility: visible; }
 
 .btn-close img {
   width: 20px;
@@ -1405,9 +1406,11 @@ footer {
 
   .photo-container-gallery-mobile-block {
     width: 43%;
+    height: 50%;
     padding-top: 8px;
     box-sizing: border-box;
-    display: grid; }
+    display: flex;
+    flex-wrap: wrap; }
 
   .photo-container-gallery-mobile-block img {
     width: 100%;
